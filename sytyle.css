@@ -1,0 +1,24 @@
+:root{
+    color-scheme: dark;
+}
+.body-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-z{
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    border: 3px rgba(255, 0, 0, 0)(236, 0, 0) solid;
+    border-radius: 90px;
+    top: 180px;
+}
+.p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
