@@ -2,8 +2,7 @@
     color-scheme: dark;
 }
 body{
-    animation: color 9s infinite linear;
-
+    animation: color 7s infinite linear;
 }
 .body-main{
     display: flex;
@@ -11,26 +10,24 @@ body{
     align-items: center;
 }
 .img-z{
-    width: 450px;
-    height: 350px;
+    width: 900px;
+    height: 600px;
     position: absolute;
     display: flex;
     align-items: center;
-    border: 3px rgba(255, 0, 0, 0)(236, 0, 0) solid;
-    border-radius: 90px;
-    top: 180px;
-}
-.p{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
+    top: 30px;
 }
 @keyframes color {
-    0%   { background: #33CCCC; }
-    20%  { background: #33CC36; }
-    40%  { background: #B8CC33; }
-    60%  { background: #FCCA00; }
-    80%  { background: #33CC36; }
-    100% { background: #33CCCC; }
-  }
+    0% {background: #FF0000;}
+    15% {background: #FF4500;}
+    20% {background: #FFA500;}
+    25% {background: #FFD700;}
+    30% {background: #9ACD32;}
+    40% {background: #379956;}
+    50% {background: #66CDAA;}
+    60% {background: #40E0D0;}
+    70% {background: #4169E1;}
+    80% {background: #7B68EE;}
+    90% {background: 	#9932CC;}
+    100% {background: #C71585;}
+}
